@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Noah Pelletier — Resume</title>
+  <meta name="description" content="Noah Pelletier — Software Engineer Resume" />
+  <style>
+    :root { --text:#111; --muted:#555; --line:#e8e8e8; --bg:#fff; }
+    html,body { margin:0; padding:0; background:var(--bg); color:var(--text); font:16px/1.45 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif; }
+    .wrap { max-width: 900px; margin: 0 auto; padding: 32px 18px 60px; }
+    header { display:flex; flex-wrap:wrap; gap:10px 18px; align-items:baseline; border-bottom:1px solid var(--line); padding-bottom:14px; margin-bottom:22px; }
+    h1 { font-size: 34px; line-height:1.1; margin:0; }
+    .contact { display:flex; flex-wrap:wrap; gap:8px 14px; color:var(--muted); }
+    .contact a { color:inherit; text-decoration:none; border-bottom:1px dotted #bbb; }
+    .tagline { margin: 10px 0 0; color:var(--muted); max-width: 80ch; }
+    section { margin-top: 22px; }
+    h2 { font-size: 18px; margin: 0 0 10px; text-transform:uppercase; letter-spacing:.08em; }
+    .card { border:1px solid var(--line); border-radius: 10px; padding: 14px 16px; }
+    .row { display:flex; flex-wrap:wrap; gap:10px 16px; justify-content:space-between; align-items:baseline; }
+    .role { font-weight: 700; }
+    .meta { color:var(--muted); }
+    ul { margin: 8px 0 0 18px; }
+    .pill { display:inline-block; border:1px solid var(--line); border-radius:999px; padding:6px 10px; margin: 4px 6px 0 0; color:var(--muted); font-size: 14px; }
+    .btnbar { margin-top: 10px; display:flex; flex-wrap:wrap; gap:10px; }
+    .btn { display:inline-block; padding:10px 12px; border-radius:10px; border:1px solid var(--line); text-decoration:none; color:var(--text); }
+    .btn:hover { border-color:#bbb; }
+  </style>
+</head>
+
+<body>
+  <main class="wrap">
+    <header>
+      <div style="flex:1 1 320px;">
+        <h1>Noah Pelletier</h1>
+        <div class="contact">
+          <span>814-722-2229</span>
+          <span><a href="mailto:npelletier2000@gmail.com">npelletier2000@gmail.com</a></span>
+          <span><a href="https://www.linkedin.com/in/noah-pelletier-abb548176" target="_blank" rel="noreferrer">LinkedIn</a></span>
+        </div>
+
+        <p class="tagline">
+          Results-driven Software Engineer (B.S. Software Engineering, RIT ’25) with hands-on experience building full-stack web apps,
+          embedded systems, and desktop tools. Proficient in designing scalable, cloud-native solutions—skilled with Agile/Scrum, CI/CD
+          pipelines, and test-driven development. Excels in remote-first environments through strong asynchronous collaboration, version
+          control best practices, and performance optimization. Seeking a challenging remote or in person role to leverage expertise in
+          system design, imaging pipelines, and cross-functional teamwork.
+        </p>
+
+        <div class="btnbar">
+          <a class="btn" href="Resume%20Noah%20Pelletier.pdf" target="_blank" rel="noreferrer">Download PDF</a>
+          <a class="btn" href="https://www.linkedin.com/in/noah-pelletier-abb548176" target="_blank" rel="noreferrer">View LinkedIn</a>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <h2>Education</h2>
+      <div class="card">
+        <div class="row">
+          <div><span class="role">B.S. Software Engineering</span> — Rochester Institute of Technology</div>
+          <div class="meta">May 2025</div>
+        </div>
+        <div class="meta">Immersion: American Sign Language</div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <div class="card">
+        <span class="pill">Python</span><span class="pill">Java</span><span class="pill">C</span><span class="pill">HTML</span><span class="pill">CSS</span>
+        <span class="pill">JavaScript</span><span class="pill">SQL</span><span class="pill">ESPHome</span><span class="pill">Embedded Systems</span>
+        <span class="pill">Command Terminal</span><span class="pill">Microsoft Office</span><span class="pill">UML</span><span class="pill">Database Engineering</span>
+        <span class="pill">UX/UI</span><span class="pill">Business Management</span><span class="pill">Data Analysis</span>
+        <span class="pill">Requirements Analysis</span><span class="pill">Project Planning</span><span class="pill">Testing</span>
+        <span class="pill">Troubleshooting</span><span class="pill">Documentation</span><span class="pill">Time Management</span>
+        <span class="pill">Communication</span><span class="pill">Creative Problem Solver</span><span class="pill">Nonlinear Thinker</span>
+      </div>
+    </section>
+
+    <section>
+      <h2>Certificates</h2>
+      <div class="card">
+        <div class="row">
+          <div><span class="role">Business Skills for Aspiring Leaders</span></div>
+          <div class="meta">Spring 2023 (RIT)</div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+
+      <div class="card" style="margin-bottom:12px;">
+        <div class="row">
+          <div class="role">“Imaging-Art-Beyond-RGB”</div>
+          <div class="meta">2024–2025</div>
+        </div>
+        <ul>
+          <li>Spectral imaging app converting RAW captures into spectral TIFF & calibrated RGB.</li>
+          <li>Implemented 90th-percentile ΔE metrics, bug fixes, color map legend, and improved CMake.</li>
+          <li>Managed metrics to maintain weekly progress and ensure timely contributions.</li>
+        </ul>
+      </div>
+
+      <div class="card" style="margin-bottom:12px;">
+        <div class="row">
+          <div class="role">“Freebie Finder”</div>
+          <div class="meta">2023</div>
+        </div>
+        <ul>
+          <li>Used SQL and Python to design a schema and API for a database with Craigslist-like functionality.</li>
+          <li>Implemented REST API and client/server interaction to enhance usability.</li>
+          <li>Prioritized user experience and accessibility.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div class="row">
+          <div class="role">“Embedded Music Player”</div>
+          <div class="meta">2023</div>
+        </div>
+        <ul>
+          <li>Developed in C to parse MIDI files and interact with a dev board (LED, button, speaker).</li>
+          <li>Built Play/Pause/Stop/Skip and CLI + button interactions.</li>
+          <li>Integrated actions to trigger coordinated LED/button/speaker behavior.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Work Experience</h2>
+
+      <div class="card" style="margin-bottom:12px;">
+        <div class="row">
+          <div><span class="role">Insanely Paracord</span> — Software Engineer</div>
+          <div class="meta">Erie, PA • Aug 2023 – Oct 2025</div>
+        </div>
+        <ul>
+          <li>Developed automation for Amazon selling using Amazon Seller API, AWS, Home Assistant, and database management.</li>
+          <li>Built tools including SKU → barcode label generation and restock recommendation calculators.</li>
+          <li>Improved metrics and adapted to changing platform functionality; expanded into laser engraving & 3D printing workflows.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div class="row">
+          <div><span class="role">The Campstore</span> — Sales Associate</div>
+          <div class="meta">Lake Pleasant, NY • May 2019 – Aug 2023</div>
+        </div>
+        <ul>
+          <li>Managed register, ice cream stand, boat rentals, and receiving shipments.</li>
+          <li>Provided customer service across a wide range of customers; supported physical loading tasks when needed.</li>
+          <li>Contributed via organization, innovation, and implementing modern technology to increase revenue/efficiency.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2>Clubs, Hobbies, and Volunteering</h2>
+
+      <div class="card" style="margin-bottom:12px;">
+        <div class="row">
+          <div class="role">Eagle Scout — Boy Scouts of America (BSA)</div>
+          <div class="meta">May 2007 – Jul 2018 • Erie, PA</div>
+        </div>
+        <ul>
+          <li>Led an Eagle Scout Project creating a sensory garden for an elementary school for children with autism.</li>
+          <li>Planned, prepared, and raised funds; built leadership and teamwork under pressure.</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <div class="row">
+          <div class="role">FIRST Robotics</div>
+          <div class="meta">Jan 2008 – May 2018</div>
+        </div>
+        <ul>
+          <li>Progressed from FIRST Lego League to FRC; led CAD and team scouting in high school.</li>
+          <li>Used data/strategy tools at competitions; participated in championships in 2018.</li>
+          <li>Mentored FIRST Lego League teams ~6 hours/week during junior and senior years.</li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+</body>
+</html>
