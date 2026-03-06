@@ -28,7 +28,7 @@ Immersion: American Sign Language
 ## Technical Skills
 
 **Languages:** Python, Java, C, SQL, HTML, CSS, JavaScript  
-**Technologies:** AWS, REST APIs, Embedded Systems, ESPHome  
+**Technologies:** AWS, Azure, Google Cloud, .NET, REST APIs, Embedded Systems, ESPHome  
 **Tools:** Git, Command Line, UML, Microsoft Office  
 **Concepts:** Database Engineering, UX/UI, Data Analysis, Requirements Analysis, Testing, Troubleshooting, Documentation  
 **Strengths:** Creative Problem Solver, Nonlinear Thinker, Strong Communication
